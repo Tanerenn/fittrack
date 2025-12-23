@@ -1,4 +1,4 @@
-# 🏋️‍♂️ FitTrack Pro - Akıllı Kilo ve Sağlık Takip Asistanı
+#  FitTrack Pro - Akıllı Kilo ve Sağlık Takip Asistanı
 
 FitTrack Pro, kullanıcıların kilo değişimlerini takip etmesini, su tüketimini izlemesini ve yapay zeka destekli analizlerle hedeflerine ulaşmasını sağlayan modern bir web uygulamasıdır.
 
