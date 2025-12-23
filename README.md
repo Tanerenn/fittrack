@@ -46,3 +46,12 @@ python manage.py migrate
 
 # Sunucuyu başlat
 python manage.py runserver
+
+### 1. Frontend Kurulumu
+cd frontend
+
+# Paketleri yükle
+npm install
+
+# Uygulamayı başlat
+npm run dev
