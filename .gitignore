@@ -1,0 +1,15 @@
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+db.sqlite3
+*.log
+
+# --- React / Node ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.DS_Store

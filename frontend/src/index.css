@@ -1,0 +1,40 @@
+/* index.css */
+:root {
+  --bg-primary: #f8f9fa;
+  --bg-secondary: #ffffff;
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --card-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  --accent-color: #0d6efd;
+}
+
+[data-theme='dark'] {
+  --bg-primary: #121212; /* Koyu arka plan */
+  --bg-secondary: #1e1e2d; /* Kart arka planı */
+  --text-primary: #e9ecef;
+  --text-secondary: #adb5bd;
+  --card-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+  --accent-color: #3d8bfd; /* Biraz daha parlak mavi */
+  
+  /* Bootstrap Override */
+  .bg-light { background-color: var(--bg-primary) !important; }
+  .bg-white { background-color: var(--bg-secondary) !important; }
+  .text-dark { color: var(--text-primary) !important; }
+  .text-muted { color: var(--text-secondary) !important; }
+  .card { background-color: var(--bg-secondary); color: var(--text-primary); }
+  .modal-content { background-color: var(--bg-secondary); color: var(--text-primary); }
+  .form-control, .form-select {
+      background-color: #2a2a3c;
+      border-color: #3f3f56;
+      color: var(--text-primary);
+  }
+  .form-control:focus { background-color: #323248; color: white; }
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card { transition: background-color 0.3s ease; }
