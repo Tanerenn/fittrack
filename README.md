@@ -31,8 +31,9 @@ FitTrack Pro, kullanıcıların kilo değişimlerini takip etmesini, su tüketim
 
 Projeyi bilgisayarınıza indirdikten sonra şu adımları izleyin:
 
-### 1. Backend Kurulumu
+### 1. Kurulumlar
 ```bash
+# 1.Backend kurulumu
 # Sanal ortam oluştur ve aktif et
 python -m venv venv
 # Windows için: venv\Scripts\activate
@@ -47,7 +48,7 @@ python manage.py migrate
 # Sunucuyu başlat
 python manage.py runserver
 
-### 1. Frontend Kurulumu
+### 2. Frontend Kurulumu
 cd frontend
 
 # Paketleri yükle
