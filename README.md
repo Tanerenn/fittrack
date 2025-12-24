@@ -1,58 +1,67 @@
-#  FitTrack Pro - Akıllı Kilo ve Sağlık Takip Asistanı
-
-FitTrack Pro, kullanıcıların kilo değişimlerini takip etmesini, su tüketimini izlemesini ve yapay zeka destekli analizlerle hedeflerine ulaşmasını sağlayan modern bir web uygulamasıdır.
-
+FitTrack Pro – Smart Weight & Health Tracking Assistant
 <img width="1916" height="899" alt="image" src="https://github.com/user-attachments/assets/e534114b-fe42-4cde-b80a-a1492e200fcd" />
 
+FitTrack Pro is a modern web application that helps users track their weight changes, monitor daily water intake, and reach their goals with AI-powered insights.
 
-## 🚀 Özellikler
+🚀 Features
 
-- **Gelişmiş Dashboard:** Kilo, su ve hedef takibi tek ekranda.
-- **AI Koç:** Kilo verme hızınıza ve su tüketiminize göre akıllı yorumlar yapar.
-- **Su Takibi:** Dalga animasyonlu görsel su takibi ve geçmiş günleri düzenleme.
-- **Karanlık Mod (Dark Mode):** Göz yormayan modern arayüz.
-- **İnteraktif Grafikler:** Recharts ile detaylı veri görselleştirme.
-- **Kişisel Hedefler:** Kilo alma, verme veya koruma modları.
+Advanced Dashboard: Track weight, water intake, and goals all in one screen.
 
-## 🛠 Teknolojiler
+AI Coach: Provides smart feedback based on your weight loss pace and water consumption.
 
-**Backend:**
-- Python & Django
-- Django REST Framework (API)
-- SQLite (Veritabanı)
+Water Tracking: Visual water tracking with wave animation and the ability to edit past days.
 
-**Frontend:**
-- React.js (Vite)
-- Bootstrap 5 & Custom CSS
-- Recharts (Grafikler)
-- Axios (API Bağlantısı)
+Dark Mode: A modern, eye-friendly dark theme.
 
-## 📦 Kurulum
+Interactive Charts: Detailed data visualization using Recharts.
 
-Projeyi bilgisayarınıza indirdikten sonra şu adımları izleyin:
+Personal Goals: Support for weight loss, weight gain, or weight maintenance modes.
 
-### 1. Kurulumlar
-```bash
-# 1.Backend kurulumu
-# Sanal ortam oluştur ve aktif et
+🛠 Technologies
+
+Backend:
+
+Python & Django
+
+Django REST Framework (API)
+
+SQLite (Database)
+
+Frontend:
+
+React.js (Vite)
+
+Bootstrap 5 & Custom CSS
+
+Recharts (Charts)
+
+Axios (API Communication)
+
+📦 Installation
+
+After downloading the project to your computer, follow these steps:
+
+1. Setup
+# 1. Backend setup
+# Create and activate a virtual environment
 python -m venv venv
-# Windows için: venv\Scripts\activate
-# Mac/Linux için: source venv/bin/activate
+# For Windows: venv\Scripts\activate
+# For Mac/Linux: source venv/bin/activate
 
-# Gereksinimleri yükle
+# Install dependencies
 pip install -r requirements.txt
 
-# Veritabanını oluştur
+# Create the database
 python manage.py migrate
 
-# Sunucuyu başlat
+# Start the server
 python manage.py runserver
 
-### 2. Frontend Kurulumu
+2. Frontend Setup
 cd frontend
 
-# Paketleri yükle
+# Install packages
 npm install
 
-# Uygulamayı başlat
+# Start the application
 npm run dev
