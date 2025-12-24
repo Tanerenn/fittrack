@@ -1,25 +1,30 @@
 FitTrack Pro – Smart Weight & Health Tracking Assistant
-<img width="1916" height="899" alt="image" src="https://github.com/user-attachments/assets/e534114b-fe42-4cde-b80a-a1492e200fcd" />
+<img width="1916" height="899" alt="FitTrack Pro Dashboard" src="https://github.com/user-attachments/assets/e534114b-fe42-4cde-b80a-a1492e200fcd" />
 
-FitTrack Pro is a modern web application that helps users track their weight changes, monitor daily water intake, and reach their goals with AI-powered insights.
+FitTrack Pro is a modern web application that helps users track their weight changes, monitor daily water intake, and achieve their health goals with AI-powered insights.
 
 🚀 Features
 
-Advanced Dashboard: Track weight, water intake, and goals all in one screen.
+Advanced Dashboard
+Track weight, water intake, and personal goals in a single screen.
 
-AI Coach: Provides smart feedback based on your weight loss pace and water consumption.
+AI Coach
+Provides smart feedback based on your weight change pace and water consumption.
 
-Water Tracking: Visual water tracking with wave animation and the ability to edit past days.
+Water Tracking
+Visual water intake tracking with wave animation and the ability to edit previous days.
 
-Dark Mode: A modern, eye-friendly dark theme.
+Dark Mode
+Modern, eye-friendly dark theme.
 
-Interactive Charts: Detailed data visualization using Recharts.
+Interactive Charts
+Detailed data visualization using Recharts.
 
-Personal Goals: Support for weight loss, weight gain, or weight maintenance modes.
+Personal Goals
+Supports weight loss, weight gain, and weight maintenance modes.
 
 🛠 Technologies
-
-Backend:
+Backend
 
 Python & Django
 
@@ -27,7 +32,7 @@ Django REST Framework (API)
 
 SQLite (Database)
 
-Frontend:
+Frontend
 
 React.js (Vite)
 
@@ -39,29 +44,32 @@ Axios (API Communication)
 
 📦 Installation
 
-After downloading the project to your computer, follow these steps:
+Follow the steps below to run the project locally.
 
-1. Setup
-# 1. Backend setup
+1️⃣ Backend Setup
 # Create and activate a virtual environment
 python -m venv venv
-# For Windows: venv\Scripts\activate
-# For Mac/Linux: source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+
+# Mac / Linux
+source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Create the database
+# Apply database migrations
 python manage.py migrate
 
-# Start the server
+# Start the backend server
 python manage.py runserver
 
-2. Frontend Setup
+2️⃣ Frontend Setup
 cd frontend
 
-# Install packages
+# Install dependencies
 npm install
 
-# Start the application
+# Start the frontend application
 npm run dev
