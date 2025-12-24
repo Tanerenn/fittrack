@@ -1,59 +1,69 @@
-FitTrack Pro – Smart Weight & Health Tracking Assistant
-<img width="1916" height="899" alt="FitTrack Pro Dashboard" src="https://github.com/user-attachments/assets/e534114b-fe42-4cde-b80a-a1492e200fcd" />
+# FitTrack Pro – Smart Weight & Health Tracking Assistant
 
-FitTrack Pro is a modern web application that helps users track their weight changes, monitor daily water intake, and achieve their health goals with AI-powered insights.
+![FitTrack Pro Dashboard](https://github.com/user-attachments/assets/e534114b-fe42-4cde-b80a-a1492e200fcd)
 
-🚀 Features
+<div align="center">
 
-Advanced Dashboard
-Track weight, water intake, and personal goals in a single screen.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-AI Coach
-Provides smart feedback based on your weight change pace and water consumption.
+</div>
 
-Water Tracking
-Visual water intake tracking with wave animation and the ability to edit previous days.
+<p align="center">
+  <strong>FitTrack Pro</strong> is a modern web application designed to help users track weight changes, monitor daily water intake, and achieve health goals with AI-powered insights.
+</p>
 
-Dark Mode
-Modern, eye-friendly dark theme.
+---
 
-Interactive Charts
-Detailed data visualization using Recharts.
+## Features
 
-Personal Goals
-Supports weight loss, weight gain, and weight maintenance modes.
+FitTrack Pro is built to maximize user experience with the following capabilities:
 
-🛠 Technologies
-Backend
+* **Advanced Dashboard:** Track weight, water intake, and personal goals on a single, intuitive screen.
+* **AI Coach:** Receive smart feedback based on your weight change pace and water consumption habits.
+* **Water Tracking:** Visual water intake tracking with wave animations and the ability to edit historical data.
+* **Dark Mode:** A modern, eye-friendly dark theme.
+* **Interactive Charts:** Detailed data visualization powered by Recharts.
+* **Personal Goals:** Supports multiple modes including weight loss, weight gain, and maintenance.
 
-Python & Django
+---
 
-Django REST Framework (API)
+## Technologies
 
-SQLite (Database)
+The project is built using a modern and scalable tech stack.
 
-Frontend
+### Backend
+* **Language:** Python
+* **Framework:** Django & Django REST Framework (API)
+* **Database:** SQLite
 
-React.js (Vite)
+### Frontend
+* **Framework:** React.js (via Vite)
+* **Styling:** Bootstrap 5 & Custom CSS
+* **Charts:** Recharts
+* **API Communication:** Axios
 
-Bootstrap 5 & Custom CSS
+---
 
-Recharts (Charts)
-
-Axios (API Communication)
-
-📦 Installation
+## Installation
 
 Follow the steps below to run the project locally.
 
-1️⃣ Backend Setup
-# Create and activate a virtual environment
+### 1. Backend Setup
+
+Open your terminal and navigate to the backend directory:
+
+```bash
+# Create a virtual environment
 python -m venv venv
 
-# Windows
+# Activate virtual environment (Windows)
 venv\Scripts\activate
 
-# Mac / Linux
+# Activate virtual environment (Mac / Linux)
 source venv/bin/activate
 
 # Install dependencies
@@ -64,8 +74,9 @@ python manage.py migrate
 
 # Start the backend server
 python manage.py runserver
+```
 
-2️⃣ Frontend Setup
+### 1. Frontend Setup
 cd frontend
 
 # Install dependencies
